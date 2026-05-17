@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Services Page  </title>
+
+
+
+<!-- Services Page -->
+
+
+
+<style> 
+        
+
+    body {font-family:serif;
+           Line-height: 1.6;
+           margin: 0px;
+           padding: 0px;
+            overflow-x: hidden;
+        font-weight: bold;}
+
+
+/*navbar    */
+
+     nav{ display: flex;
+          justify-content: center;
+          gap:80px;
+          padding:15px;
+          background-color: skyblue;
+          color: white;
+          font-size: 20px;}
+
+     nav a { text-decoration:none;
+             color:blue;
+             font-size:20px;}
+
+
+    header{ height: 500px;
+        background-image: url('services.jpg');
+        background-repeat: no-repeat;   /* ❌ repeat band */
+        background-size: cover;         /* full fit */
+        background-position: center;    /* center align */
+        color: black;}
+
+ header h1 { text-align:center;
+             padding-top: 120px;
+             margin-bottom: 10px;}
+h2 { text-align:center;} 
+h3 {  text-align:center;
+      margin-top:30px;  }
+
+p{ margin-top:30px;
+   text-align:center; }
+
+img {    text-align:center;
+        margin-left:400px;
+        margin-right:400px;
+        height: 350px;
+        width:500px; 
+        justify-content:space-between;
+     align-items: center;}
+
+
+
+
+
+
+
+
+/*Drop Down Menue*/
+
+
+.accordion {width: 90%;
+  margin-left: 60px;
+  margin-right: 60px;
+
+  background: none;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+  position: relative;}
+
+/* arrow */
+.accordion::after {
+  content: "⌄";
+  position: absolute;
+  right: 10px;
+  font-size: 18px;}
+
+/* rotate arrow when active */
+.accordion.active::after {content: "⌃";}
+
+.panel {display: none;
+        padding: 10px 15px;
+        width: 75%;
+       margin-left: 80px;
+       margin-right: 60px;}
+
+
+
+
+/*Drop Down Menu*/
+
+
+ footer{ background-color: skyblue;
+           text-align:center;
+           height:30px;
+           margin-top:30px;
+           padding:30px 0;}
+
+
+
+</style>
+
+
+<body>
+  
+<!-- Navbar -->
+
+  
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="dentistAboutpage.html">About</a>
+        <a href="Testimonial.html">Testimonials</a>
+        <a href="cases.html">Cases</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+
+  <header>
+
+   <h1> <u>  <font size="09"> Dr. Suresh BDS, FCPS </u> </h1>  </font>
+   <h2> <u>  <font size="06"> Consultant in Operative Dentistry & Endodontics </u>  </h2>
+    <h2> <u> Services
+        </u>  </h2> </font>
+
+</header>
+
+
+<h3> <u> <font size="05"> List of Dental Treatments by Dr. Sarang Suresh  </font> </u>   </h3>
+
+<p> <font size="05">   Root Canal Treatment, Facial Pain, Gum Disease, Tooth Injury, Child Dental Treatment, Fillings & Cavities, Crowns & Bridges, Pulp Capping & Pulpotomy, Inlays & Onlays, Dental Implants  </font>     </p>
+<br> <br>
+
+
+<img src="services2.jpg">
+
+
+
+
+<!-- Menu Drop Down -->
+
+
+<div class="accordion-item">
+  <button class="accordion">Preventive Treatments</button>
+  <div class="panel">
+    <p>Dental Cleanings (Prophylaxis & Examinations): Routine cleanings remove plaque and tartar from teeth and gum surfaces, and include a dentist’s exam to detect early signs of disease 
+Dental Sealants: Thin, protective coatings applied to chewing surfaces of molars to prevent decay in grooves and pits.
+Fluoride Treatments: In‑office application of fluoride varnish or gel to strengthen enamel and reverse early decay</p>
+  </div>
+</div>
+
+
+
+<div class="accordion-item">
+  <button class="accordion">Restorative Treatments</button>
+  <div class="panel">
+    <p>Dental Fillings: Materials (amalgam, composite resin) used to restore teeth damaged by cavities or minor fractures 
+Dental Crowns: “Caps” placed over weakened or broken teeth to restore shape, strength, and appearance 
+Dental Bridges: Prosthetic devices that span gaps left by one or more missing teeth, anchored to adjacent natural teeth or implants 
+Dentures (Partial & Complete): Removable prostheses replacing multiple or all teeth in an arch for function and aesthetics 
+Dental Implants: Titanium posts surgically placed in the jawbone to support crowns, bridges, or dentures for permanent tooth replacement 
+Root Canal Therapy (Endodontics): Removal of infected or damaged pulp tissue inside a tooth’s root canals, followed by cleaning, shaping, and sealing.</p>
+  </div>
+</div>
+
+
+
+
+<div class="accordion-item">
+  <button class="accordion">Cosmetic Treatments</button>
+  <div class="panel">
+    <p>Teeth Whitening: In‑office or at‑home bleaching procedures to remove stains and lighten tooth color 
+Veneers: Thin porcelain or composite shells bonded to the front of teeth to improve shape, size, and color 
+Dental Bonding: Application of tooth‑colored resin to repair chips, cracks, or gaps in teeth 
+Cosmetic Contouring & Reshaping: Minor enamel removal and polishing to adjust tooth length or shape for a more uniform smile </p>
+  </div>
+</div>
+
+
+
+
+<div class="accordion-item">
+  <button class="accordion"> Periodontal (Gum) Treatments </button>
+  <div class="panel">
+    <p>Scaling & Root Planing: Deep cleaning beneath the gum line to remove bacterial plaque and tartar, helping gums reattach to teeth 
+Gum Tissue Grafts: Surgical placement of soft tissue (often from the palate) to cover exposed roots and restore gum contours.
+Antibiotic Therapy (Local or Systemic): Use of antimicrobial agents—topical gels or oral pills—to control bacterial infection in periodontal pockets </p>
+  </div>
+</div>
+
+
+
+<div class="accordion-item">
+  <button class="accordion"> Oral Surgery </button>
+  <div class="panel">
+    <p>Tooth Extractions: Removal of severely decayed, damaged, or non‑restorable teeth under local anesthesia 
+Wisdom Teeth Removal: Surgical extraction of impacted or symptomatic third molars to prevent pain and crowding </p>
+  </div>
+</div>
+
+
+
+
+
+<div class="accordion-item">
+  <button class="accordion"> Emergency Treatments </button>
+  <div class="panel">
+    <p>Same‑Day Emergency Care: Urgent treatment for toothaches, broken/chipped teeth, knocked‑out teeth, and other acute dental injurie </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- menu drop down -->
+
+
+
+<!-- java Script -->
+
+
+
+<script>
+let acc = document.getElementsByClassName("accordion");
+
+for (let i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    let panel = this.nextElementSibling;
+
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<!-- Java Script -->
+
+
+
+
+
+
+
+<!-- Footer -->
+
+
+<footer>  <font size="05">   Call to book an appointment: 0346-3361966   </font> </footer>
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
